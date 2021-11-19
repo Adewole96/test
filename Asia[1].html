@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Asia</title>
+      <link rel= "stylesheet" href = "StyleSheet.css">
+      <link rel= "stylesheet" href = "style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <section class="wrapper" id="parallax-1">
+      <div class="overlay">
+        <header class="d-flex-r clear justify-content-space-between">
+          <!--logo -->
+          <div class="my-1" id="logo"><a href="index.html"><img src="logo.png"></a></div>
+
+          <!-- navigation Bar -->
+          <nav class="fl_right font-xs text-uppercase" id="main-navbar">
+
+            <ul class="clear">
+              <li class="active"><a href="index.html">Home</a></li>
+
+              <li><a href="#">Continents</a>
+                <!-- lvl 1 links -->
+                <ul>
+                  <li><a href="Africa.html">Africa</a></li>
+                  <li><a href="Antarctica.html">Antarctica</a></li>
+                  <li><a href="Asia.html">Asia</a></li>
+                  <li><a href="Australia.html">Australia</a></li>
+                  <li><a href="Europe.html">Europe</a></li>
+                  <li><a href="North America.html">North America</a></li>
+                  <li><a href="#">South America</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#destinations">Destinations</a></li>
+              <li><a href="#parallax-2">Bookings</a></li>
+              <li><a href="#main-footer">contact us</a></li>
+
+
+            </ul>
+          </nav>
+        <body>
+</div>
+
+<h1>Asian Foods</h1>
+Here are many foods that are popular in Asia:
+<ol>
+<li> Momos
+<li> Kimchi
+<li> Dim Sum
+<li> Bulgogi BBQ
+<li> Bun Cha
+</ol>
+
+<dl>
+<dt> Momos </dt>
+<dd> Momos are very popular in the Himalayas. Momos resemble dumplings
+and are usually filled with Himalayan meat or vegetable
+Momos are ususally served with hot chilli sauce, dark soy and a side of soup. </dd>
+<p><center><img src="Momos.jpg"
+height="40" width="50"></center></p>
+<dt> Kimchi </dt>
+<dd>Kimchi is as popular as condiments are in America. In Korea, fermented vegetables
+or "Kimchi" is paired with most meals. The meal variations are endless. </dd>
+<p><center><img src="kimchi.jpg"
+height="40" width="50"></center></p>
+<dt> Dim Sum </dt>
+<dd>Dim Sum are dumplings that come in a variety of flavours.Traditionally,
+Dim Sum is served in bamboo steaming baskets. </dd>
+<p><center><img src="dimsum.jpg"
+height="40" width="50"></center></p>
+<dt> Bulgogi BBQ </dt>
+<dd>Korean Barbecue is a hands-on eating experience. Bulgogi is richly marinated beef.  
+Bulgogi is one of the most popular Korean BBQ meat choices.</dd>
+<p><center><img src="koreanbbq.jpg"
+height="40" width="50"></center></p>
+<dt> Bun Cha </dt>
+<dd> Bun Cha is grilled pork served with rice noodles and a slightly hot dipping sauce. Compared to
+most veggie filled delicacies in Vietnam, Bun Cha is a bit on the "unhealthy" side.
+Bun Cha is usually a "lunch time" food or a mid-day snack."</dd>
+<p><center><img src="Buncha.jpg"
+height="40" width="50"></center></p>
+</dl>
+
+          </div>
+
+      
+      <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}   
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block"; 
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+      </script>
+      <footer>
+       <div class="wrapper bg-green">
+      <footer class="d-flex-r clear container text-white" id="main-footer">
+
+        <div class="mx-2">
+          <h6 class="heading font-x1 my-1">Contact Us</h6>
+          <ul class="nospace linkedlist contact">
+            <li><i class="fa fa-map-marker"></i>
+              <address>100 University Dr, Prairie View, TX 77446.</address>
+            </li>
+            <li><i class="fa fa-phone"></i>+1 281-965-9596</li>
+            <li><i class="fa fa-envelope-o"></i>Akarunwi1@pvamu.edu</li>
+            <li><a class="text-white" href="https://www.youtube.com/" target="blank"><i class="fa fa-youtube"></i>youtube</a></li>
+          </ul> 
+        </div>
+
+        <div class="mx-2">
+          <h6 class="heading my-1 font-x1">About</h6>
+          <ul class="nospace linkedlist">
+            <li><a href="#">Company Profile</li>
+            <li><a href="#">Guides</li>
+            <li><a href="#">Booking Support</li>
+            <li><a href="#">Blog</li>
+          </ul>
+        </div>
+
+        <div class="mx-2" id="company">
+          <h6 class="heading my-1 font-x1">Company</h6>
+          <ul class="nospace linkedlist">
+            <li><a href="#">Careers</li>
+            <li><a href="#">Target</li>
+            <li><a href="#">About Company</li>
+            <li><a href="#">Privacy</li>
+          </ul>
+        </div>
+
+        <div class="mx-2" id="subscribe">
+          <h6 class="heading my-1 font-x1">Subscribe</h6>
+          <p class="my-1">For more information</p>
+          <form method="post" action="#">
+            <fieldset>
+              <input type="text" class="my-1" placeholder="Name">
+              <input type="email" class="my-1" placeholder="Email">
+              <button class="btn">Submit</button>
+            </fieldset>
+        </div>
+
+        <div class="mx-2" id="instafeed">
+          <h6 class="heading my-1 font-x1">InstaFeed</h6>
+          <div class="d-flex-r my-1">
+            <a href="#"><img src="insta1.jpg" class="mx-1"></a>
+            <a href="#"><img src="insta2.jpg"></a>
+          </div>
+          <div class="d-flex-r my-1">
+            <a href="#"><img src="insta3.jpg" class="mx-1"></a>
+            <a href="#"><img src="insta4.jpg"></a>
+          </div>
+          <div class="d-flex-r my-1">
+            <a href="#"><img src="insta5.jpg" class="mx-1"></a>
+            <a href="#"><img src="insta6.jpg"></a>
+          </div>
+        </div>
+        </div>
+      </footer>
+
+      <div class="d-flex-r clear justify-content-space-between" id="copyright">
+        <p class="d-flex-r">Copyright &copy; 2021 - All Right Reserved - <a href="#">Domain Name</a></p>
+
+        <a href="#mypage" id="backtotop"><i class="fa fa-chevron-up"></i></a>
+        <p class="d-flex-r">Template by - <a href="https://www.facebook.com" target="_blank" title="Adewole">Intercontinental Cuisine Corporation</a></p>
+        </footer>
+      </div>
+    </div>
+
+
+
+        </body>
+
+
+          </html>
